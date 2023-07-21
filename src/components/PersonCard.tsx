@@ -28,11 +28,9 @@ const PersonCard: React.FC<PersonCardProps> = ({ person }) => {
         {person.name}
       </Heading>
       <Text mb="2">
-        Field: {person.field} | Experience: {person.experience}
+        Field: {person.field} | Experience: {person.experience} | Email:{" "}
+        {person.email} | Date of Birth: {person.dob} | Gender: {person.gender}
       </Text>
-      <Text mb="2">Email: {person.email}</Text>
-      <Text mb="2">Date of Birth: {person.dob}</Text>
-      <Text>Gender: {person.gender}</Text>
     </Box>
   )
 }

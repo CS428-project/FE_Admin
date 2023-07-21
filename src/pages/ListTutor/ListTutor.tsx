@@ -11,6 +11,21 @@ const people: Person[] = [
     dob: '1990-01-01',
     gender: 'Male',
   },
+  {
+    name: 'John Doe',
+    field: 'Software Engineering',
+    experience: '5 years',
+    email: 'john.doe@example.com',
+    dob: '1990-01-01',
+    gender: 'Male',
+  },{
+    name: 'John Doe',
+    field: 'Software Engineering',
+    experience: '5 years',
+    email: 'john.doe@example.com',
+    dob: '1990-01-01',
+    gender: 'Male',
+  }
   // Add more people as needed
 ];
 
@@ -29,7 +44,7 @@ const ListTutor: React.FC = () => {
       <CSSReset />
       <Flex direction="column" alignItems="center" p="4">
         <Heading as="h1" size="xl" my="4">
-          List of People
+          List of Tutor
         </Heading>
         <Box width="100%" maxW="600px">
           {people.map((person, index) => (
